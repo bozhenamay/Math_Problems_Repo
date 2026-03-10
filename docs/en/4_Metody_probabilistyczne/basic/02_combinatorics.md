@@ -306,6 +306,285 @@ $$
 This rule is useful when a problem must be split into cases.
 
 ---
+
+## Task 1 — Recognizing Counting Models
+
+For each situation determine which combinatorial model is most appropriate:
+
+- permutation  
+- circular permutation  
+- combination  
+- k-permutation (ordered selection without repetition)  
+- sequence with repetition  
+- permutation with repeated elements  
+
+1. Arranging 7 students in a line.  
+2. Choosing 4 members of a committee from 12 people.  
+3. Assigning gold, silver, and bronze medals among 15 athletes.  
+4. Forming a 6-digit PIN code.  
+5. Arranging the letters of the word **BANANA**.  
+6. Seating 6 people around a round table.
+
+---
+
+## Task 2 — Permutations
+
+1. In how many ways can 8 different books be arranged on a shelf?  
+2. In how many ways can 8 people sit in a row if two particular people must sit next to each other?  
+3. In how many ways can they sit if those two people must **not** sit next to each other?  
+4. In how many ways can 10 questions in a test be ordered if the first question is fixed?
+
+---
+
+## Task 3 — Permutations with Repeated Elements
+
+1. How many distinct arrangements of the word  
+
+   $$
+   MISSISSIPPI
+   $$
+
+   are possible?
+
+2. How many distinct arrangements of  
+
+   $$
+   STATISTICS
+   $$
+
+   are possible?
+
+3. How many of the arrangements of **STATISTICS** start with the letter **S**?
+
+---
+
+## Task 4 — Circular Permutations
+
+1. In how many ways can 7 people sit around a round table?  
+2. In how many ways can they sit if two particular people must sit next to each other?  
+3. In how many ways can they sit if those two people must sit opposite each other?
+
+---
+
+## Task 5 — Combinations
+
+1. A committee of 4 people is chosen from 12 students. How many committees are possible?  
+2. How many committees contain a particular student?  
+3. How many committees contain **at least one** of two particular students?  
+4. How many committees contain exactly two women if the group consists of 7 men and 5 women?
+
+---
+
+## Task 6 — Combinations in Card Problems
+
+A standard deck contains 52 cards.
+
+1. In how many ways can 5 cards be drawn so that the hand contains **exactly 2 hearts**?  
+2. In how many ways can a 5-card hand contain **at least one heart**?  
+3. In how many ways can a 5-card hand contain **no face cards** (J, Q, K)?
+
+---
+
+## Task 7 — k-Permutations (Ordered Selections Without Repetition)
+
+1. In how many ways can the first three places be assigned among 12 runners?  
+2. How many 4-digit numbers with **distinct digits** can be formed from the digits 1–9?  
+3. How many of these numbers are **divisible by 5**?
+
+---
+
+## Task 8 — Sequences with Repetition
+
+1. How many 5-digit PIN codes are possible if digits may repeat?  
+2. How many such codes contain **at least one repeated digit**?  
+3. How many such codes have **all digits different**?
+
+---
+
+## Task 9 — Digit Restrictions
+
+1. How many **5-digit numbers** exist?  
+2. How many of them are **even**?  
+3. How many contain **no repeated digits**?  
+4. How many contain **at least one repeated digit**?
+
+---
+
+## Task 10 — Urn Models
+
+An urn contains:
+
+- 5 red balls  
+- 4 blue balls  
+- 3 green balls  
+
+1. Three balls are drawn **without replacement**. How many samples are possible if **order is ignored**?  
+2. How many samples contain **exactly two red balls**?  
+3. Three balls are drawn and the **order of colors is recorded**. How many outcomes are possible?  
+4. How many outcomes contain **exactly two red balls**?
+
+
+## Task 11 — Modeling Outcomes
+
+In combinatorial and probabilistic problems, the number of possible outcomes depends on **how the results of an experiment are recorded**.
+
+The same physical experiment may lead to different counting models depending on whether:
+
+* objects are treated as **distinguishable or indistinguishable**,
+* **order is recorded or ignored**,
+* positions are treated as **distinct places**.
+
+Answer the following conceptual questions.
+
+---
+
+### 1. Distinguishable vs Indistinguishable Objects
+
+A box contains:
+
+- 4 red balls  
+- 4 blue balls  
+- 3 green balls  
+
+Thus there are 11 balls in total.
+
+1. How many **linear arrangements of all 11 balls** are possible if balls of the same color are treated as **indistinguishable**?
+
+2. How many arrangements are possible if every ball is **individually labeled**, for example
+
+$$
+R_1, R_2, R_3, R_4, B_1, B_2, B_3, B_4, G_1, G_2, G_3
+$$
+
+3. Explain why the answers in parts (1) and (2) are different.
+
+---
+
+### 2. Recording Order vs Ignoring Order
+
+Three balls are drawn **without replacement** from the same box.
+
+1. How many outcomes are possible if **only the set of colors is recorded** (order ignored)?
+
+2. How many outcomes are possible if **the sequence of colors is recorded**?
+
+3. Explain why recording the order changes the counting model.
+
+---
+
+### 3. PIN Code vs Number
+
+A security system uses **4-digit PIN codes** consisting of digits from 0 to 9.
+
+1. How many different PIN codes are possible if **repetition is allowed**?
+
+2. Consider **4-digit numbers**, where the first digit cannot be zero.  
+   How many such numbers exist?
+
+3. Explain why a **PIN code** and a **4-digit number** are counted using different rules.
+
+4. Explain why the codes
+
+$$
+1234
+$$
+
+and
+
+$$
+4321
+$$
+
+must be treated as **different outcomes**.
+
+---
+
+## Task 12 — Mixed Counting Problem
+
+The following problem combines several counting models.  
+For each part:
+
+* determine which **counting model** is most appropriate,
+* compute the **number of possible outcomes**.
+
+---
+
+### 1. Student ID Codes
+
+A university introduces student identifiers consisting of:
+
+- two **letters** chosen from the set  
+  $$
+  \{A,B,C,D,E\}
+  $$
+- followed by **three digits** from $0$ to $9$.
+
+1. How many identifiers are possible if **letters and digits may repeat**?
+
+2. How many identifiers are possible if **letters may not repeat but digits may repeat**?
+
+3. How many identifiers are possible if **neither letters nor digits may repeat**?
+
+---
+
+### 2. Medal Assignment
+
+In a race with **12 runners**, medals are awarded for:
+
+- gold  
+- silver  
+- bronze
+
+1. In how many ways can the medals be assigned?
+
+2. Suppose two particular runners must **both receive medals**.  
+   In how many ways can the medals be assigned?
+
+---
+
+### 3. Committee Selection
+
+A committee of **4 people** is chosen from **10 students**, including **6 men and 4 women**.
+
+1. How many committees are possible?
+
+2. How many committees contain **exactly two women**?
+
+3. How many committees contain **at least one woman**?
+
+---
+
+### 4. Circular Seating
+
+Seven people sit around a **round table**.
+
+1. How many different seating arrangements are possible?
+
+2. In how many arrangements do two particular people sit **next to each other**?
+
+---
+
+### 5. Passwords
+
+A password consists of **5 characters** chosen from:
+
+- the digits $0–9$,
+- the letters $A–Z$.
+
+1. How many passwords are possible if **repetition is allowed**?
+
+2. How many passwords are possible if **no character may repeat**?
+
+3. Which counting model is used in each case?
+
+---
+---
+---
+---
+
+
+# Old problems
+
 ## Task 01 – Basic Definitions and Classification
 
 For each of the following situations, determine whether it is best described by:
@@ -601,3 +880,5 @@ Create an interactive webpage that:
 6. includes a short explanation of why two red balls may or may not count as different depending on the model.
 
 The webpage should be visually simple and didactic.
+
+
