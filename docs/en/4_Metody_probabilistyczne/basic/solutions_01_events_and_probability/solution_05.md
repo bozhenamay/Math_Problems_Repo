@@ -72,21 +72,21 @@ Each pair corresponds to a **specific position and orientation of the needle**.
 Using symmetry of the experiment, we can restrict the variables to:
 
 $$
-x \in \left[0,\frac{d}{2}\right]
+x \in [0,\frac{d}{2}]
 $$
 
 $$
-\theta \in \left[0,\frac{\pi}{2}\right]
+\theta \in [0,\frac{\pi}{2}]
 $$
 
 Thus, the sample space can be written as:
 
 $$
 \Omega =
-\left\{(x,\theta) \mid
+\{(x,\theta) \mid
 x \in [0,\frac{d}{2}],
 \theta \in [0,\frac{\pi}{2}]
-\right\}
+\}
 $$
 
 This set contains **all possible combinations of position and orientation of the needle**.
